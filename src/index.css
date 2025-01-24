@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Arabic:wght@100..900&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+
+
 .header{
   background-color: #0d6cac;
 }
@@ -105,4 +109,127 @@ color: white;
   width: 1086px;
   height: 500px;
   margin-top: 30px;
+}
+
+.footer{
+  height: 336px;
+  background-color: #E8F2F8;
+  background-image: url('assets/images/footerbg.png');
+  background-size: 100%;
+  background-position: center;
+}
+
+.footer1{
+  height: 100%;
+  padding-block: 30px;
+}
+
+.footer1 p{
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+color: #0d6cac;  
+}
+
+.footer2 ul{
+  font-family: Montserrat;
+font-size: 20px;
+font-weight: 600;
+color: #0d6cac;
+
+
+}
+
+.footer2 ul li{
+  cursor: pointer;
+}
+
+.footer2 .footerCTN{
+  background-color: #0d6cac;
+  color: white;
+  padding: 3px 5px;
+  border-radius: 50px;
+  text-align: center;
+  
+}
+
+.footer3{
+  height: 100%;
+  padding-top: 40px;
+}
+
+.footer3 h1{
+  font-family: Akaya Telivigala;
+font-size: 34px;
+font-weight: 400;
+color: #0d6cac;
+text-transform: uppercase;
+
+}
+
+.footer3 p{
+  font-family: Montserrat;
+font-size: 16px;
+font-weight: 600;
+
+color: #0d6cac;
+}
+.mission{
+  height: 739px;
+  background-color: #0d6cac;
+}
+
+.mission .left{
+  width: 780px;
+  /* padding: 60px; */
+}
+
+.mission .left h1{
+  font-family: Montserrat;
+font-size: 34px;
+font-weight: 900;
+color: white;
+}
+
+.mission .left p{
+  font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+color: white;
+line-height: 27px;
+}
+
+.mission .left h2{
+  font-family: Montserrat;
+font-size: 27.2px;
+font-weight: 900;
+color: white;
+text-align: center;
+}
+
+.mission .right img{
+  height: 570px;
+  width: 570px;
+  /* padding: 50p; */
+}
+
+.mission .left .yellow{
+  color: #FFCB00;
+}
+
+.mission .left button{
+  background-color: #FFCB00;
+  padding: 10px 50px;
+  border-radius: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #0d6cac;
+}
+
+.mission .right h3{
+  font-family: Montserrat;
+font-size: 22.4px;
+font-weight: 700;
+color: white;
+
 }
