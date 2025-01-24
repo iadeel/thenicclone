@@ -1,9 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Arabic:wght@100..900&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
 .header{
   background-color: #0d6cac;
 }
 
 .herosection{
   height: 982px;
+  background-image: url('assets/images/herosectionbg.png');
   background-color: #0d6cac;
+  background-size: 120%;
+  position: relative;
+  background-position: center;
+}
+
+.herosection .h2_1{
+  font-family: Almarai;
+  font-size: 34px;
+  font-weight: 300;
+  line-height: 47.6px;
+  text-align: center;
+  color: white;
+  text-decoration-skip-ink: none;
   
+
+}
+
+.herosection h1{
+  font-family: "Noto Sans Arabic", serif;
+
+font-size: 64px;
+font-weight: 800;
+color: #FFCB00;
+line-height: 47.6px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.herosection .h2_2{
+  font-family: "Montserrat", Arial;
+  text-transform: uppercase;
+color: white;
+  font-size: 36px;
+font-weight: 500;
+line-height: 35.84px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.herosection p{
+  font-family: Montserrat;
+font-size: 16px;
+font-weight: 600;
+line-height: 27.2px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: white;
 }
