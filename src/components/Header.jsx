@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <>
     <div className="header flex justify-between items-center p-5" >
-        <div className="logo">
+        <div className="logo cursor-pointer">
             <img src={logo} height={99.69} />
         </div>
         <div className="nav">
@@ -18,13 +18,13 @@ const Header = () => {
                 <li>Education</li>
                 <li>Team</li>
                 <li>Contact Us</li>
-                <li className='border-2 px-2 py-1 rounded-md'>Support</li>
+                <li className='border-2 px-2 py-1 rounded-md cursor-pointer'>Support</li>
             </ul>
         </div>
         <div className="socials flex text-white gap-3">
-        <FaFacebook size={30} />
-        <FaInstagram size={30} />
-        <FaYoutube size={30}/>
+        <FaFacebook className=' cursor-pointer' size={30} />
+        <FaInstagram className=' cursor-pointer' size={30} />
+        <FaYoutube className=' cursor-pointer' size={30}/>
         </div>
     </div>
     </>
