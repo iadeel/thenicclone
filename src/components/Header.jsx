@@ -12,12 +12,12 @@ const Header = () => {
         </div>
         <div className="nav">
             <ul className='flex items-center gap-5 text-xl font-semibold text-white'>
-                <li className='text-yellow-400'>Home</li>
-                <li>About NIC  </li>
-                <li>The Masjid</li>
-                <li>Education</li>
-                <li>Team</li>
-                <li>Contact Us</li>
+                <li  className='text-yellow-400 cursor-pointer'>Home</li>
+                <li className='cursor-pointer'>About NIC  </li>
+                <li className='cursor-pointer'>The Masjid</li>
+                <li className='cursor-pointer'>Education</li>
+                <li className='cursor-pointer'>Team</li>
+                <li className='cursor-pointer'>Contact Us</li>
                 <li className='border-2 px-2 py-1 rounded-md cursor-pointer'>Support</li>
             </ul>
         </div>

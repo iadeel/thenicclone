@@ -24,6 +24,7 @@
   line-height: 47.6px;
   text-align: center;
   color: white;
+  
   text-decoration-skip-ink: none;
   
 
@@ -67,9 +68,9 @@ color: white;
 
 .gallery{
   background-color: #E8F2F8;
-  height: 800px ;
+  height: 850px ;
   
-  padding-top: 50px ;
+  /* padding-top: 50px ; */
 }
 
 .gallery h1{
@@ -77,6 +78,7 @@ color: white;
 font-size: 34px;
 font-weight: 700;
 color: #0d6cac;
+text-transform: uppercase;
 
 }
 
@@ -231,5 +233,84 @@ text-align: center;
 font-size: 22.4px;
 font-weight: 700;
 color: white;
+
+}
+
+.feeds{
+  height: 610px;
+  background-color: #E8F2F8;
+  padding: 100px;
+}
+
+.feedsright{
+  width: 591px;
+}
+
+.timetable{
+  text-transform: uppercase;
+  border: 2px solid #FFCB00;
+  border-top-left-radius: 220px;
+  border-top-right-radius: 220px;
+  height: 438px;
+  width: 334px;
+
+  
+}
+
+.timetable p{
+  font-family: Montserrat;
+font-size: 22.4px;
+font-weight: 400;
+color: #0d6cac;
+text-transform: capitalize;
+}
+
+.timetable table{
+  width: 310px;
+  height: 300px;
+  font-family: Montserrat;
+font-size: 20.8px;
+font-weight: 400;
+line-height: 25px;
+color: #0d6cac;
+}
+
+.feedsright h1{
+  font-family: Montserrat;
+font-size: 33.6px;
+font-weight: 700;
+color: #0d6cac;
+text-transform: uppercase;
+}
+
+.feedsright .cards{
+  height: 100%;
+}
+
+.feedsright .card{
+  height: 310px;
+  width: 255px;
+  border-radius: 10px;
+  /* border: 1px solid black; */
+  position: relative;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.283);
+}
+
+.feedsright .cards  img {
+  border-top-left-radius:10px ; 
+  border-top-right-radius:10px ; 
+}
+
+.feedsright .cardcontent{
+  /* border: 2px solid black; */
+  height: 60px;
+  padding: 10px;
+
+}
+
+.multiposticon{
+  height: 20px;
+  width: 20px;
+  position: absolute;
 
 }

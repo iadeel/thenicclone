@@ -11,8 +11,8 @@ const App = () => {
     <>
     <Header/>
     <HeroSection/>
-    <Mission />
     <Feeds />
+    <Mission />
     <Gallery />
     <Location/>
     <Footer />

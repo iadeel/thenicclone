@@ -7,7 +7,7 @@ const Footer = () => {
     <>
     <div className="footer flex justify-around items-center">
         <div className="footer1 flex flex-col justify-evenly">
-            <img src={logo} />
+            <img className='cursor-pointer' src={logo} />
             <p>© 2023 thenic.se</p>
         </div>
         <div className="footer2">
